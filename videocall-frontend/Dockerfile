@@ -11,7 +11,7 @@ COPY . .
 RUN npm run build
 
 # Production стадия с nginx
-FROM nginx:alpine
+FROM nginx:1.29.5-alpine3.23
 
 # Удаление дефолтной конфигурации nginx
 RUN rm /etc/nginx/conf.d/default.conf
