@@ -2,7 +2,7 @@ asgiref==3.9.1
 cffi==1.17.1
 channels==4.0.0
 channels-redis==4.1.0
-cryptography==41.0.7
+cryptography==46.0.5
 Django==5.2.5
 django-cors-headers==4.3.1
 django-ratelimit==4.1.0
